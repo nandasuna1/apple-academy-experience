@@ -2,13 +2,16 @@ import React from 'react';
 import pic from '../../assets/p2.png'
 import { Bottom, Container, ModuleWrapper, Modulo, Top } from './styles';
 import { NavLink } from 'react-router-dom';
+import { SiTypescript, SiJavascript, SiJest, SiReact, SiNodedotjs } from 'react-icons/si'
 
 // import { Container } from './styles';
 
 function Career() {
   return (
     <Container>
-        <NavLink to='/main'>Voltar</NavLink>    
+        <nav>
+            <NavLink to='/main'>Voltar</NavLink>    
+        </nav>
         <section>
             <h1>Eu Profissional</h1>
             <p>Sou uma desenvolvedora Fullstack e Mobile autodidata, apaixonada por desenvolvimento e design e muito curiosa.</p>
@@ -17,17 +20,16 @@ function Career() {
         </section>
 
         <main>
-        <p>Os 2 pilares que mais me atraem no desenvolvimento são:</p>
         <Top>
 
             <ModuleWrapper>
                 <Modulo>
-                    <p>Tecnologias</p>
+                    <h2>Tecnologias</h2>
                     <div>Explorar soluções tecnológicas que sejam belas e funcionais</div>                
                 </Modulo>
 
                 <Modulo>
-                    <p>Design</p>
+                    <h2>Design</h2>
                     <div>Interfaces simples, limpas e intuitivas</div>                
                 </Modulo>
         
@@ -37,6 +39,14 @@ function Career() {
             <img src={pic}/>
         </Bottom>
         </main>
+
+        <footer>
+            <SiJavascript size={50}/>
+            <SiNodedotjs size={50}/>            
+            <SiTypescript size={50}/>
+            <SiJest size={50}/>
+            <SiReact size={50}/>
+        </footer>
 
 
     </Container>

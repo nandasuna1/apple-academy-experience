@@ -33,6 +33,7 @@ export const Right = styled.section`
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: start;
 
     row-gap: 50px;
@@ -57,6 +58,11 @@ export const List = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    h1 {
+        color: violet;
+        font-size: 30px;
+    }
 `
 
 export const StyledLink = styled(NavLink)`

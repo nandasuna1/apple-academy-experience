@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 export function Hobbies() {
     const iconData = [
         {
-          label: 'Música',
+          label: 'Musica',
           description: 'Desde pequena sempre fui apaixonada por música. Aprendi por conta propria a tocar inicialmente violão e estendi minhas expertises para outros instrumentos. Em 2020 em plena pandemia a música se mostrou uma grande amiga, a descoberta de novos sons e extilos me inspiraram a criar um instagram de música, postando alguns covers e conteúdos autorais.'
         },
         {

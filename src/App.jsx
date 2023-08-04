@@ -1,12 +1,5 @@
 import React from "react"
 import { styled } from "styled-components"
-import Hero from "./sections/Hero"
-import Who from "./sections/Who"
-import Works from "./sections/Works"
-import Contact from "./sections/Contact"
-import Test from "./treejsCanvas/Test"
-import Stacks from "./sections/Stacks"
-import Navbar from "./component/Navbar"
 import { BrowserRouter } from "react-router-dom"
 import { Router } from "./Router"
 
@@ -39,12 +32,6 @@ function App() {
   return (
     <BrowserRouter>
       <Router />
-        {/* <Container>
-        <Hero/>
-        <Who/>
-        <Stacks/>
-        <Contact/>
-      </Container> */}
     </BrowserRouter>
 
   )

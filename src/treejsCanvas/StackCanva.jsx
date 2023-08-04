@@ -1,7 +1,6 @@
 import React from 'react'
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import Cube from '../treejsModels/Cube'
 import Paralelepipedo from '../treejsModels/Paralelepipedo'
 
 export default function StackCanva({techName}) {

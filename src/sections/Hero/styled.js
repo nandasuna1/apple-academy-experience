@@ -2,11 +2,14 @@ import { styled } from "styled-components"
 
 export const Section = styled.div`
   height: 100vh;
-  scroll-snap-align: center;
+  width: 100vw;
+  overflow: hidden;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: azure;
 `
 export const Container = styled.div`
   height: 100vh;
@@ -21,6 +24,26 @@ export const LeftTop = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+
+  a {
+    background-color: violet;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid violet;
+
+    transition: linear 200ms;
+    &:hover {
+    background-color: azure;
+    color: violet;
+    border: 2px solid violet;
+  }
+  }
 `
 export const Title = styled.h1`
   font-size: 74px;
@@ -47,8 +70,7 @@ export const Description = styled.p`
   color: white;
 `
 export const Img = styled.img`
-  width: 800px;
-  height: 600px;
+  width: 400px;
   object-fit: contain;
   position: absolute;
   top: 0;

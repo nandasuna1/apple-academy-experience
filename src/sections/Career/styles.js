@@ -8,11 +8,16 @@ export const Container = styled.div`
 
     flex-direction: column;
 
-    align-items: start;
+    align-items: center;
     justify-content: center;
 
-
     background-color: azure;
+
+    nav {
+        width: 100%;
+        padding: 20px;
+        align-items: start;
+    }
 
     main {
         background-color: violet;
@@ -27,13 +32,26 @@ export const Container = styled.div`
 
         color: violet;
         font-weight: bold;
-        font-size: 24px;
 
         margin: 20px;
     }
 
     section {
         padding: 15px;
+        /* width: 600px; */
+        text-align: center;
+
+        p {
+            color: gray;
+        }
+    }
+
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     
 `

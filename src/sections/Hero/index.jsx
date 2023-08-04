@@ -1,14 +1,7 @@
 import React from 'react'
-import { styled } from 'styled-components'
-import Navbar from '../../component/Navbar'
-import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
-import { Canvas } from '@react-three/fiber'
-import { Container, Description, Img, LeftTop, RightBottom, Section, SubTitle, Title, WhatWeDo } from './styled'
-import { Button } from '../../component/ButtonComponent/styled'
-import ButtonComponent from '../../component/ButtonComponent'
-import LinkComponent from '../../component/Link'
+import { Container, Img, LeftTop, RightBottom, Section, SubTitle, Title, WhatWeDo } from './styled'
 import { NavLink } from 'react-router-dom'
-
+import Foto from '../../assets/hero.png'
 
 export default function Hero() {
   return (
@@ -35,7 +28,7 @@ export default function Hero() {
                   />
               </Sphere>
           </Canvas> */}
-          <Img src='./img/assets/f-dev2.png' />
+          <Img src={Foto} />
         </RightBottom>
       </Container>
     </Section>
